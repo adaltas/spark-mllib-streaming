@@ -5,15 +5,15 @@ This repository backs up the article: [Spark Streaming part 4: clustering with S
 - [Spark Streaming part 3: tools and tests for Spark applications](http://www.adaltas.com/en/2019/06/19/spark-devops-tools-test/)
 - [Spark Streaming part 4: clustering with Spark MLlib](http://www.adaltas.com/en/2019/07/11/ml-clustering-spark-mlib/)
 
-Main files related to the part 4 are:
+Primary files related to the part 4 are:
 
-- *MainKmeans.scala* from the `com.adaltas.taxistreaming.clustering` package
+- *MainKmeans.scala* from the `com.adaltas.taxistreaming.clustering` package - clusters are computed and saved as models
+
+- *MainConsoleClustering.scala* from the `com.adaltas.taxistreaming` package - ML models are read and integrated within the streaming pipeline
 
 - *TaxiProcessingBatch.scala* from the `com.adaltas.taxistreaming.processing` package
 
-- *ClustersGeoJSON.scala* from the `com.adaltas.taxistreaming.utils` package
-
-- *MainConsoleClustering.scala* from the `com.adaltas.taxistreaming` package
+- *ClustersGeoJSON.scala* from the `com.adaltas.taxistreaming.utils` package - used for visualization
 
 For more information about the content of these files, follow [the associated article](http://www.adaltas.com/en/2019/07/11/ml-clustering-spark-mlib/).
 
